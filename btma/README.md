@@ -1,3 +1,6 @@
+The script adds an annotation `belongs to module` (OEO_00040001) to every class in every OEO module to indicale, in which module it lives. 
+NOTE: Protégé now shows this, too. The annotation is not needed anymore.
+
 To execute the annotator easily:
 
 1. Make sure that Python is installed on your system.
