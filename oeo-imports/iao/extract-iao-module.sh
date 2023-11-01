@@ -4,7 +4,7 @@ curl -L https://raw.githubusercontent.com/information-artifact-ontology/IAO/v202
 # Extract the terms we want with hierarchy until the upper term "information content entity" (IAO_0000030). 
 # Warning: This removes the domain of IAO_0000136 -- tbd in oeo-import-edits
 # Classification:  tbd in oeo-import-edits
-robot merge --input C:/Users/stappel/Documents/Ontologies/test_oeo_imports/iao-full-download.owl extract --method MIREOT --lower-terms C:/Users/stappel/Documents/Ontologies/test_oeo_imports/iao-w-hierarchy.txt --intermediates all --upper-term http://purl.obolibrary.org/obo/IAO_0000030 --output C:/Users/stappel/Documents/Ontologies/test_oeo_imports/iao-extracted.owl
+robot merge --input iao-full-download.owl extract --method MIREOT --lower-terms iao-w-hierarchy.txt --intermediates all --upper-term http://purl.obolibrary.org/obo/IAO_0000030 --output iao-extracted.owl
 # Annotates the output module with a commentary to the origin of the content
 robot annotate --input C:/Users/stappel/Documents/Ontologies/test_oeo_imports/iao-extracted.owl --annotation rdfs:comment "This file contains externally imported content from the Information Artifact Ontology (IAO) for import into the Open Energy Ontology (OEO). It is automatically extracted using ROBOT." --output C:/Users/stappel/Documents/Ontologies/test_oeo_imports/iao-extracted.owl
 # Annotates each axiom with the ontology IRI, using prov:wasDerivedFrom
