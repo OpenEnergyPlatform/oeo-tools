@@ -1,7 +1,7 @@
 # Note: For consistent results run with ROBOT v1.91 or higher
 # Download the IAO release from 2022-11-07
 curl -L https://raw.githubusercontent.com/information-artifact-ontology/IAO/v2022-11-07/iao.owl > iao-full-download.owl
-# Extract the terms we want with hierarchy until the upper term "informatio content entity" (IAO_0000030). 
+# Extract the terms we want with hierarchy until the upper term "information content entity" (IAO_0000030). 
 # Warning: This removes the domain of IAO_0000136 -- tbd in oeo-import-edits
 # Classification:  tbd in oeo-import-edits
 robot merge --input C:/Users/stappel/Documents/Ontologies/test_oeo_imports/iao-full-download.owl extract --method MIREOT --lower-terms C:/Users/stappel/Documents/Ontologies/test_oeo_imports/iao-w-hierarchy.txt --intermediates all --upper-term http://purl.obolibrary.org/obo/IAO_0000030 --output C:/Users/stappel/Documents/Ontologies/test_oeo_imports/iao-extracted.owl
