@@ -13,4 +13,22 @@ http://purl.obolibrary.org/obo/IAO_0000310 # document
 http://purl.obolibrary.org/obo/IAO_0000590 # written name
 http://purl.obolibrary.org/obo/IAO_0000233 # term tracker item
 
+http://purl.obolibrary.org/obo/IAO_0000584 # time sampled measurement data set
+http://purl.obolibrary.org/obo/IAO_0000007 # action specification
+http://purl.obolibrary.org/obo/IAO_0000098 # data format specification
+http://purl.obolibrary.org/obo/IAO_0000005 # objective specification
+http://purl.obolibrary.org/obo/OBI_0500000 # study design
+http://purl.obolibrary.org/obo/IAO_0000594 # software application
+http://purl.obolibrary.org/obo/IAO_0000593 # software library
+http://purl.obolibrary.org/obo/IAO_0000591 # software method
+http://purl.obolibrary.org/obo/IAO_0000592 # software module
+http://purl.obolibrary.org/obo/IAO_0000595 # software script
+http://purl.obolibrary.org/obo/IAO_0000314 # document part # subclasses requireds?
+http://purl.obolibrary.org/obo/IAO_0000013 # journal article
+http://purl.obolibrary.org/obo/IAO_0000129 # version number
+http://purl.obolibrary.org/obo/IAO_0000400 # cartesian spatial coordinate datum
+http://purl.obolibrary.org/obo/IAO_0000401 # one dimensional cartesian spatial coordinate datum
+http://purl.obolibrary.org/obo/IAO_0000402 # two dimensional cartesian spatial coordinate datum
+http://purl.obolibrary.org/obo/IAO_0000403 # three dimensional cartesian spatial coordinate datum
+
 http://purl.obolibrary.org/obo/IAO_0006011 # may be identical to
