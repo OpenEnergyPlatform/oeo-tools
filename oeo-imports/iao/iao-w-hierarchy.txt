@@ -13,7 +13,7 @@ http://purl.obolibrary.org/obo/IAO_0000310 # document
 http://purl.obolibrary.org/obo/IAO_0000590 # written name
 http://purl.obolibrary.org/obo/IAO_0000233 # term tracker item
 
-http://purl.obolibrary.org/obo/IAO_0000584 # time sampled measurement data set
+http://purl.obolibrary.org/obo/IAO_0000582 # time stamped measurement datum 
 http://purl.obolibrary.org/obo/IAO_0000007 # action specification
 http://purl.obolibrary.org/obo/IAO_0000098 # data format specification
 http://purl.obolibrary.org/obo/IAO_0000005 # objective specification
