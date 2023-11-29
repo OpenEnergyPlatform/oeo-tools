@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/STATO_0000314 # upper confidence limit
+http://purl.obolibrary.org/obo/STATO_0000315 # lower confidence limit
+http://purl.obolibrary.org/obo/STATO_0000196 # confidence interval
+ 
