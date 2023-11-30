@@ -24,7 +24,6 @@ http://purl.obolibrary.org/obo/IAO_0000591 # software method
 http://purl.obolibrary.org/obo/IAO_0000592 # software module
 http://purl.obolibrary.org/obo/IAO_0000595 # software script
 http://purl.obolibrary.org/obo/IAO_0000314 # document part # subclasses requireds?
-http://purl.obolibrary.org/obo/IAO_0000013 # journal article
 http://purl.obolibrary.org/obo/IAO_0000129 # version number
 http://purl.obolibrary.org/obo/IAO_0000400 # cartesian spatial coordinate datum
 http://purl.obolibrary.org/obo/IAO_0000401 # one dimensional cartesian spatial coordinate datum
