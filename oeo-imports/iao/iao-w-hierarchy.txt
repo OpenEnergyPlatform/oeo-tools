@@ -1,14 +1,35 @@
-http://purl.obolibrary.org/obo/IAO_0000136
-http://purl.obolibrary.org/obo/IAO_0000010
-http://purl.obolibrary.org/obo/IAO_0000025
-http://purl.obolibrary.org/obo/IAO_0000028
-http://purl.obolibrary.org/obo/IAO_0000030
-http://purl.obolibrary.org/obo/IAO_0000033
-http://purl.obolibrary.org/obo/IAO_0000064
-http://purl.obolibrary.org/obo/IAO_0000088
-http://purl.obolibrary.org/obo/IAO_0000100
-http://purl.obolibrary.org/obo/IAO_0000104
-http://purl.obolibrary.org/obo/IAO_0000300
-http://purl.obolibrary.org/obo/IAO_0000310
-http://purl.obolibrary.org/obo/IAO_0000590
-http://purl.obolibrary.org/obo/IAO_0000233
+http://purl.obolibrary.org/obo/IAO_0000136 # is about
+http://purl.obolibrary.org/obo/IAO_0000010 # software
+http://purl.obolibrary.org/obo/IAO_0000025 # programming language
+http://purl.obolibrary.org/obo/IAO_0000028 # symbol
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/IAO_0000033 # directive information entity
+http://purl.obolibrary.org/obo/IAO_0000064 # algorithm
+http://purl.obolibrary.org/obo/IAO_0000088 # report
+http://purl.obolibrary.org/obo/IAO_0000100 # data set
+http://purl.obolibrary.org/obo/IAO_0000104 # plan specification
+http://purl.obolibrary.org/obo/IAO_0000300 # textual entity
+http://purl.obolibrary.org/obo/IAO_0000310 # document
+http://purl.obolibrary.org/obo/IAO_0000590 # written name
+http://purl.obolibrary.org/obo/IAO_0000233 # term tracker item
+
+http://purl.obolibrary.org/obo/IAO_0000582 # time stamped measurement datum 
+http://purl.obolibrary.org/obo/IAO_0000007 # action specification
+http://purl.obolibrary.org/obo/IAO_0000098 # data format specification
+http://purl.obolibrary.org/obo/IAO_0000005 # objective specification
+http://purl.obolibrary.org/obo/OBI_0500000 # study design
+http://purl.obolibrary.org/obo/IAO_0000594 # software application
+http://purl.obolibrary.org/obo/IAO_0000593 # software library
+http://purl.obolibrary.org/obo/IAO_0000591 # software method
+http://purl.obolibrary.org/obo/IAO_0000592 # software module
+http://purl.obolibrary.org/obo/IAO_0000595 # software script
+http://purl.obolibrary.org/obo/IAO_0000314 # document part # subclasses requireds?
+http://purl.obolibrary.org/obo/IAO_0000129 # version number
+http://purl.obolibrary.org/obo/IAO_0000400 # cartesian spatial coordinate datum
+http://purl.obolibrary.org/obo/IAO_0000401 # one dimensional cartesian spatial coordinate datum
+http://purl.obolibrary.org/obo/IAO_0000402 # two dimensional cartesian spatial coordinate datum
+http://purl.obolibrary.org/obo/IAO_0000403 # three dimensional cartesian spatial coordinate datum
+
+http://purl.obolibrary.org/obo/IAO_0006011 # may be identical to
+http://purl.obolibrary.org/obo/IAO_0000581 # has time stamp
+ 
