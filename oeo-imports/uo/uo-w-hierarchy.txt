@@ -1,19 +1,144 @@
-http://purl.obolibrary.org/obo/UO_0000000
-http://purl.obolibrary.org/obo/UO_0000001
-http://purl.obolibrary.org/obo/UO_0000002
-http://purl.obolibrary.org/obo/UO_0000003
-http://purl.obolibrary.org/obo/UO_0000036
-http://purl.obolibrary.org/obo/UO_0000046
-http://purl.obolibrary.org/obo/UO_0000047
-http://purl.obolibrary.org/obo/UO_0000111
-http://purl.obolibrary.org/obo/UO_0000224
-http://purl.obolibrary.org/obo/UO_0010006
-http://purl.obolibrary.org/obo/UO_0000033
-http://purl.obolibrary.org/obo/UO_0000187
-http://purl.obolibrary.org/obo/UO_0000189
-http://purl.obolibrary.org/obo/UO_0000190
-http://purl.obolibrary.org/obo/UO_0000122
-http://purl.obolibrary.org/obo/UO_0000032
-http://purl.obolibrary.org/obo/UO_0000095
-http://purl.obolibrary.org/obo/UO_0000113
-http://purl.obolibrary.org/obo/UO_0000270
+http://purl.obolibrary.org/obo/UO_0000046 # prefix
+http://purl.obolibrary.org/obo/UO_0000304 # atto
+http://purl.obolibrary.org/obo/UO_0000298 # centi
+http://purl.obolibrary.org/obo/UO_0000295 # deca
+http://purl.obolibrary.org/obo/UO_0000295 # deci
+http://purl.obolibrary.org/obo/UO_0000289 # exa
+http://purl.obolibrary.org/obo/UO_0000303 # femto
+http://purl.obolibrary.org/obo/UO_0000292 # giga
+http://purl.obolibrary.org/obo/UO_0000287 # hecto
+http://purl.obolibrary.org/obo/UO_0000294 # kilo
+http://purl.obolibrary.org/obo/UO_0000293 # mega
+http://purl.obolibrary.org/obo/UO_0000299 # micro
+http://purl.obolibrary.org/obo/UO_0000297 # milli
+http://purl.obolibrary.org/obo/UO_0000300 # nano
+http://purl.obolibrary.org/obo/UO_0000290 # peta
+http://purl.obolibrary.org/obo/UO_0000302 # pico
+http://purl.obolibrary.org/obo/UO_0000291 # tera
+http://purl.obolibrary.org/obo/UO_0000306 # yocto
+http://purl.obolibrary.org/obo/UO_0000286 # yotta
+http://purl.obolibrary.org/obo/UO_0000305 # zepto
+http://purl.obolibrary.org/obo/UO_0000288 # zetta
+
+http://purl.obolibrary.org/obo/UO_0000121 # 'angle unit'
+
+    http://purl.obolibrary.org/obo/UO_0000185 # 'degree'
+    http://purl.obolibrary.org/obo/UO_0000123 # 'radian'
+
+http://purl.obolibrary.org/obo/UO_0000047 # 'area unit'
+
+    http://purl.obolibrary.org/obo/UO_0010010 # 'hectare'
+    http://purl.obolibrary.org/obo/UO_0000080 # 'square meter'
+    http://purl.obolibrary.org/obo/UO_0000082 # 'square millimeter'
+
+http://purl.obolibrary.org/obo/UO_0000261 # 'conduction unit'
+
+    http://purl.obolibrary.org/obo/UO_0000264 # 'siemens'
+
+http://purl.obolibrary.org/obo/UO_0000182 # 'density unit'
+
+    http://purl.obolibrary.org/obo/UO_0000086 # 'kilogram per square meter'
+    http://purl.obolibrary.org/obo/UO_0000083 # 'kilogram per cubic meter'
+
+http://purl.obolibrary.org/obo/UO_0000186 # 'dimensionless unit'
+
+    http://purl.obolibrary.org/obo/UO_0000169 # 'parts per million"
+    http://purl.obolibrary.org/obo/UO_0000196 # 'pH'
+    http://purl.obolibrary.org/obo/UO_0000188 # 'pi'
+    http://purl.obolibrary.org/obo/UO_0000187 # 'percent'
+    http://purl.obolibrary.org/obo/UO_0010006 # 'ratio'
+
+http://purl.obolibrary.org/obo/UO_0000219 # 'electric charge'
+
+    http://purl.obolibrary.org/obo/UO_0000220 # 'coulomb'
+
+http://purl.obolibrary.org/obo/UO_0000004 # 'electric current unit'
+
+    http://purl.obolibrary.org/obo/UO_0000011 # 'ampere'
+
+http://purl.obolibrary.org/obo/UO_0000217 # 'electric potential difference unit'
+
+    http://purl.obolibrary.org/obo/UO_0000218 # 'volt'
+    http://purl.obolibrary.org/obo/UO_0000248 # 'kilovolt'
+    http://purl.obolibrary.org/obo/UO_0000252 # 'megavolt'
+
+http://purl.obolibrary.org/obo/UO_0000111 # 'energy unit'
+
+    http://purl.obolibrary.org/obo/UO_0000112 # 'joule'
+    http://purl.obolibrary.org/obo/UO_0000223 # 'watt-hour
+    http://purl.obolibrary.org/obo/UO_0000224 # 'kilowatt-hour'
+
+http://purl.obolibrary.org/obo/UO_0000107 # 'force unit'
+
+    http://purl.obolibrary.org/obo/UO_0000108 # 'newton
+
+http://purl.obolibrary.org/obo/UO_0000105 # 'frequency unit'
+
+    http://purl.obolibrary.org/obo/UO_0000106 # 'hertz'
+    http://purl.obolibrary.org/obo/UO_0000325 # 'megahertz'
+    http://purl.obolibrary.org/obo/UO_0000092 # 'turns per second'
+
+http://purl.obolibrary.org/obo/UO_0000231 # 'information unit'
+
+    http://purl.obolibrary.org/obo/UO_0000232 # 'bit'
+    http://purl.obolibrary.org/obo/UO_0000233 # 'byte'
+    http://purl.obolibrary.org/obo/UO_0000234 # 'kilobyte'
+    http://purl.obolibrary.org/obo/UO_0000235 # 'megabyte'
+    http://purl.obolibrary.org/obo/UO_0000331 # 'gigabyte'
+    http://purl.obolibrary.org/obo/UO_0000332 # 'terabyte'
+
+http://purl.obolibrary.org/obo/UO_0000001 # 'length unit'
+
+    http://purl.obolibrary.org/obo/UO_0000016 # 'millimeter'
+    http://purl.obolibrary.org/obo/UO_0000008 # 'meter'
+    http://purl.obolibrary.org/obo/UO_0010066 # 'kilometer'
+
+http://purl.obolibrary.org/obo/UO_0000157 # 'light unit'
+
+    http://purl.obolibrary.org/obo/UO_0000116 # 'lux'
+    http://purl.obolibrary.org/obo/UO_0000155 # 'watt per square meter'
+    http://purl.obolibrary.org/obo/UO_0000118 # 'lumen'
+    http://purl.obolibrary.org/obo/UO_0000014 # 'candela'
+
+http://purl.obolibrary.org/obo/UO_0000002 # 'mass unit'
+
+    http://purl.obolibrary.org/obo/UO_0000021 # 'gram'
+    http://purl.obolibrary.org/obo/UO_0000009 # 'kilogram'
+
+http://purl.obolibrary.org/obo/UO_0000113 # 'power unit'
+
+    http://purl.obolibrary.org/obo/UO_0000114 # 'watt'
+
+http://purl.obolibrary.org/obo/UO_0000109 # 'pressure unit'
+
+    http://purl.obolibrary.org/obo/UO_0000110 # 'pascal'
+
+http://purl.obolibrary.org/obo/UO_0000280 # 'rate unit'
+
+http://purl.obolibrary.org/obo/UO_0000060 # 'speed/velocity unit'
+
+    http://purl.obolibrary.org/obo/UO_0000094 # 'meter per second'
+    http://purl.obolibrary.org/obo/UO_0010008 # 'kilometer per hour'
+
+http://purl.obolibrary.org/obo/UO_0000005 # 'temperature unit'
+
+    http://purl.obolibrary.org/obo/UO_0000012 # 'kelvin'
+    http://purl.obolibrary.org/obo/UO_0000027 # 'celsius'
+
+http://purl.obolibrary.org/obo/UO_0000003 # 'time unit'
+
+    http://purl.obolibrary.org/obo/UO_0000010 # 'second'
+    http://purl.obolibrary.org/obo/UO_0000031 # 'minute'
+    http://purl.obolibrary.org/obo/UO_0000032 # 'hour'
+    http://purl.obolibrary.org/obo/UO_0000033 # 'day'
+    http://purl.obolibrary.org/obo/UO_0000034 # 'week'
+    http://purl.obolibrary.org/obo/UO_0000035 # 'month'
+    http://purl.obolibrary.org/obo/UO_0000036 # 'year'
+
+http://purl.obolibrary.org/obo/UO_0000095 # 'volume unit'
+
+    http://purl.obolibrary.org/obo/UO_0000097 # 'cubic centimeter'
+    http://purl.obolibrary.org/obo/UO_0000099 # 'liter'
+    http://purl.obolibrary.org/obo/UO_0000096 # 'cubic meter'
+
+http://purl.obolibrary.org/obo/UO_0000270 # 'volumetric flow rate unit'
