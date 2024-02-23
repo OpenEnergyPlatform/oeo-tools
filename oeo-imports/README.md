@@ -6,3 +6,6 @@ Workflow for new/updated imports:
 4. Create PR, review, merge
 5. Add newly created ontology-extracted.owl file to oeo repository
  
+Requirements
+- ROBOT
+- curl
