@@ -6,7 +6,7 @@ robot merge --input uo-full-download.owl extract --method MIREOT --lower-terms u
 ## add prefix for OBO xmlns:obo="http://purl.obolibrary.org/obo/"
 # Linux sed -i 's/xmlns:owl/xmlns:obo="http:\/\/purl.obolibrary.org\/obo\/"\xmlns:owl/' uo-module-temp.owl
 # windows
-(Get-Content -ReadCount 0 uo-temp-extracted.owl) -replace 'xmlns:owl', 'xmlns:obo="http://purl.obolibrary.org/obo/#"
+(Get-Content -ReadCount 0 uo-temp-extracted.owl) -replace 'xmlns:owl', 'xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl' | Set-Content uo-extracted.owl
 # Replace "<rdfs:comment>" with "obo:IAO_0000115" and Replace "<rdfs:comment>" with "</obo:IAO_0000115>"
 ## Linux:
