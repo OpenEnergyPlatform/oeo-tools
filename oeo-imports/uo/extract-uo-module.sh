@@ -14,7 +14,7 @@ robot merge --input uo-full-download.owl extract --method MIREOT --lower-terms u
 #sed -i 's/<\/rdfs:comment>/<\/obo:IAO_0000115>/g' uo-module-temp.owl
 ## windows:
 (Get-Content -ReadCount 0 uo-extracted.owl) -replace '<rdfs:comment>', '<obo:IAO_0000115>' | Set-Content uo-extracted.owl
-(Get-Content -ReadCount 0 uo-extracted.owl) -replace '<\rdfs:comment>', '<\obo:IAO_0000115>' | Set-Content uo-extracted.owl
+(Get-Content -ReadCount 0 uo-extracted.owl) -replace '</rdfs:comment>', '</obo:IAO_0000115>' | Set-Content uo-extracted.owl
 ## 
 # Annotates the output with a commentary to the origin of the content
 robot annotate --input uo-extracted.owl --annotation rdfs:comment "This file contains externally imported content from the Unit Ontology (UO) for import into the Open Energy Ontology (OEO). It is automatically extracted using ROBOT." --output uo-extracted.owl
