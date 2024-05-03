@@ -1,9 +1,16 @@
 http://purl.obolibrary.org/obo/RO_0000053 # bearer of
-http://purl.obolibrary.org/obo/RO_0000052 # characteristic of (inheres in)
 http://purl.obolibrary.org/obo/RO_0000091 # has disposition	
 http://purl.obolibrary.org/obo/RO_0000085 # has function
 http://purl.obolibrary.org/obo/RO_0000087 # has role
-http://purl.obolibrary.org/obo/RO_0002328 # functionallyy related to
+http://purl.obolibrary.org/obo/RO_0000086 # has quality
+
+http://purl.obolibrary.org/obo/RO_0000052 # characteristic of (inheres in)
+http://purl.obolibrary.org/obo/RO_0000092 # disposition of
+http://purl.obolibrary.org/obo/RO_0000079 # function of
+http://purl.obolibrary.org/obo/RO_0000080 # quality of
+http://purl.obolibrary.org/obo/RO_0000081 # role of
+
+http://purl.obolibrary.org/obo/RO_0002328 # functionally related to
 http://purl.obolibrary.org/obo/RO_0002352 # input of
 http://purl.obolibrary.org/obo/RO_0002353 # output of
 http://purl.obolibrary.org/obo/RO_0000057 # has participant
@@ -33,5 +40,4 @@ http://purl.obolibrary.org/obo/RO_0002091 # starts during
 
 http://purl.obolibrary.org/obo/RO_0002418 # causally upstream of or within
 http://purl.obolibrary.org/obo/RO_0002427 # causally downstream of or within
-http://purl.obolibrary.org/obo/RO_0000086 # has quality
 http://purl.obolibrary.org/obo/RO_0002577 # system
