@@ -27,3 +27,4 @@ robot annotate --input  ${tmpdir}/uo-extracted.owl  --ontology-iri http://openen
 rm ${tmpdir}/uo-full-download.owl
 rm ${tmpdir}/uo-module-temp.owl
 rm ${tmpdir}/uo-extracted.owl
+rmdir ${tmpdir}
