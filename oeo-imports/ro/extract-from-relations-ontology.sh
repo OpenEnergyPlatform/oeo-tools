@@ -29,3 +29,4 @@ rm ${tmpdir}/ro-full-download.owl
 rm ${tmpdir}/ro-extracted-w-hierarchy.owl
 rm ${tmpdir}/ro-extracted-n-hierarchy.owl
 rm ${tmpdir}/ro-extracted.owl
+rmdir ${tmpdir}
