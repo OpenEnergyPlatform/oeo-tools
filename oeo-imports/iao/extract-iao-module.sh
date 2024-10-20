@@ -26,3 +26,4 @@ rm ${tmpdir}/iao-full-download.owl
 rm ${tmpdir}/iao-extracted-w-hierarchy.owl
 rm ${tmpdir}/iao-extracted-n-hierarchy.owl
 rm ${tmpdir}/iao-extracted.owl
+rmdir ${tmpdir}
