@@ -1,0 +1,7 @@
+This script is called like this: 
+python3 wordFinder.py [path to your rdf data file] [path to the file holding labels].
+
+The output will be printed into a file called results.txt.
+You may need to instal rdflib first.
+
+The file with all current OEO labels taken from the glossary and current alternative labels extracted from the omn files is provided in this folder.
