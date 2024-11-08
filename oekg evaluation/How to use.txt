@@ -1,4 +1,4 @@
-This script is calles like this: 
+This script is called like this: 
 python3 wordFinder.py [parth to your rdf data file] [path to the file holding labels].
 
 The output will be printed into a file called results.txt.
