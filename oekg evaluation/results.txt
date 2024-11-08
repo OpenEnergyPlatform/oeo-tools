@@ -1,0 +1,237 @@
+
+http://openenergy-platform.org/ontology/oekg/71ee99be-d811-6fc8-0707-f5dea0485529
+consumer: 1
+cost: 1
+economy: 1
+emission: 1
+energy: 5
+model: 1
+nuclear: 1
+policy: 3
+port: 1
+project: 1
+reduction: 1
+report: 1
+scenario: 3
+second: 1
+ship: 1
+year: 2
+sea: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/3fc42966-9510-7148-c6ed-a21f79a86636
+energy: 1
+policy: 1
+scenario: 2
+
+http://openenergy-platform.org/ontology/oekg/scenario/520d1e0f-ec0d-8130-42f5-97b97297db27
+biomass: 1
+bit: 1
+emission: 1
+energy: 2
+greenhouse gas: 2
+greenhouse gas emission: 1
+potential: 1
+renewable: 1
+scenario: 1
+technology: 1
+CCS: 1
+CCS technology: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/c566bbf1-0bdf-6f13-1bbd-8046f727a5ca
+biomass: 1
+bit: 1
+emission: 1
+energy: 1
+greenhouse gas: 2
+greenhouse gas emission: 1
+port: 1
+potential: 1
+scenario: 2
+technology: 1
+transport: 1
+CCS: 1
+CCS technology: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/e75d53b1-de4d-a3db-730c-c60a754a0633
+emission: 1
+greenhouse gas: 1
+greenhouse gas emission: 1
+reduction: 1
+scenario: 1
+
+http://openenergy-platform.org/ontology/oekg/769cff3d-d739-4760-687b-19c3f3675bd9
+energy: 1
+energy system: 1
+fee: 1
+policy: 1
+port: 1
+sector: 2
+system: 1
+transport: 1
+transport sector: 1
+
+http://openenergy-platform.org/ontology/oekg/fb0a19c1-8c20-cd2e-e109-e18d563f9a19
+energy: 2
+export: 1
+port: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/2e4abb2b-43f0-935c-babd-1976ae5a128e
+demand: 1
+process: 1
+study: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/833c6665-73f6-6817-f534-4a10f5054a3a
+port: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/ff9765f6-b2ea-fb3c-1d77-b043b856e956
+
+http://openenergy-platform.org/ontology/oekg/6ddf7ede-c3a5-93c8-4385-b975c628d610
+emission: 2
+pi: 3
+port: 1
+project: 2
+quality: 1
+report: 1
+year: 2
+
+http://openenergy-platform.org/ontology/oekg/scenario/5d8167b6-b3e0-0da9-600e-5cc4484fcbd4
+exa: 1
+policy: 2
+policy instrument: 1
+policy scenario: 1
+port: 1
+R: 1
+report: 1
+scenario: 4
+transformative measure: 1
+with existing measures scenario: 1
+year: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/b7c25295-ee96-2af2-bca7-2af14ea78853
+energy: 1
+object: 1
+policy: 3
+policy instrument: 2
+policy scenario: 1
+port: 1
+R: 1
+report: 1
+scenario: 6
+transformative measure: 2
+with additional measures scenario: 1
+year: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/e9da6e0a-5592-3ca9-47e0-c8c011f834e3
+policy: 2
+policy instrument: 1
+policy scenario: 1
+port: 1
+R: 1
+report: 1
+scenario: 4
+transformative measure: 1
+without measures scenario: 1
+
+http://openenergy-platform.org/ontology/oekg/95a65aca-6915-b64a-cac7-3831c12885b4
+car: 3
+cost: 2
+demand: 2
+distribution: 1
+emission: 2
+energy: 1
+exa: 1
+greenhouse gas: 2
+greenhouse gas emission: 1
+gross value added: 1
+micro: 1
+model: 3
+port: 4
+project: 6
+ratio: 2
+reduction: 1
+report: 2
+scenario: 1
+sector: 1
+simulation: 1
+system: 1
+system cost: 1
+year: 1
+investment: 1
+GDP: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/ea32122d-d5b2-b201-41ed-7369118a3a26
+acronym: 1
+policy: 2
+policy instrument: 1
+policy scenario: 1
+scenario: 2
+transformative measure: 1
+with existing measures scenario: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/45241647-498c-da85-7664-6c7f642fa4a1
+acronym: 1
+policy: 2
+policy instrument: 1
+policy scenario: 1
+scenario: 2
+transformative measure: 1
+with existing measures scenario: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/e150c4d6-aaea-25e7-ddad-2ce70004d01c
+acronym: 1
+policy: 2
+policy instrument: 2
+scenario: 1
+
+http://openenergy-platform.org/ontology/oekg/fd14cec6-9144-3207-eac1-40af83caf4c2
+port: 1
+report: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/e5c82793-02e1-d5fb-5b54-48befc0da908
+policy: 2
+policy instrument: 1
+policy scenario: 1
+scenario: 2
+transformative measure: 1
+with existing measures scenario: 1
+
+http://openenergy-platform.org/ontology/oekg/9387d4a9-85f1-52e9-ce79-0168f25dd5e0
+bus: 1
+data set: 1
+document: 1
+energy: 5
+energy system: 4
+energy system model: 2
+import: 1
+model: 7
+object: 1
+open source: 1
+pi: 1
+port: 1
+project: 2
+quality: 1
+ratio: 4
+reference: 2
+sector: 4
+system: 5
+network: 1
+sea: 2
+
+http://openenergy-platform.org/ontology/oekg/scenario/8fc85e76-f2a8-a76d-03f8-0d5059f7e8d6
+scenario: 1
+
+http://openenergy-platform.org/ontology/oekg/scenario/444fca1a-8e8f-1e56-9773-6852691621b0
+acronym: 1
+consumption: 1
+due: 1
+energy: 1
+output data: 1
+policy: 2
+policy instrument: 1
+policy scenario: 1
+R: 1
+scenario: 2
+transformative measure: 1
+with existing measures scenario: 1
+energy consumption: 1
+final energy consumption: 1
