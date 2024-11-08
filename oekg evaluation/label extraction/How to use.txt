@@ -1,0 +1,16 @@
+labels.py is called like this:
+
+python3 labels.py [path to omn file] [alt | labels | ger | all]
+
+output: textfile labels.txt
+alt: extracts all alternative labels of the file
+labels: extracts (non alternative) labels of the file
+ger: extracts German alternative labels of the file
+all: all of the above
+
+if you want to combine these with the labels from the glossary while sorting out doubles you can use mergeLists.py:
+
+python3 mergeLists [path to first list.txt] [path to second list.txt]
+output: textfile mergedList.txt
+
+
