@@ -34,7 +34,7 @@ with open(keys,"r") as file:
 
 i = 0
 
-with open("results2.txt", "w") as file:
+with open("abstract_evaluation2.txt", "w") as file:
 
     for x in abstracts: #go trough abstracts
         file.write("\n")
