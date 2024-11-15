@@ -1,4 +1,6 @@
-There are two scripts. This one is querying a file:
+There are 3 scripts. 
+
+This one is querying a file:
 
 python3 wordFinder.py [path to your rdf data file] [path to the file holding labels].
 
@@ -16,3 +18,15 @@ The output will be printed into a file called abstract_evaluation2.txt.
 ///
 
 The file with all current OEO labels taken from the glossary and current alternative labels extracted from the omn files is provided in this folder and is called allLabels.txt.
+
+///
+
+This one is for querying...
+1) the number of studys in the sample
+2) the number of scenarios per study
+3) the descriptors of each study
+
+python3 oekgQuery.py [studynumber|scenarionumber|descriptors]
+
+Chosing "studynumber" will print the number in the terminal.
+Chosing "scenarionumber" or "descriptors" will output a file named "scenariosPerStudy.txt" or "studyDescriptors.txt" respectively.
