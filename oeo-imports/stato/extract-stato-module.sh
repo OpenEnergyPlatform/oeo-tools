@@ -18,6 +18,6 @@ robot annotate --input ${tmpdir}/stato-extracted.owl --annotation rdfs:comment "
 robot annotate --input ${tmpdir}/stato-extracted.owl --annotate-derived-from true --annotate-defined-by true --output ${imports}/stato-extracted.owl
 
 rm ${tmpdir}/stato-full-download.owl
-rm ${tmpdir}/stato-extracted-n-hierarchy.owl
+rm ${tmpdir}/stato-extracted-w-hierarchy.owl
 rm ${tmpdir}/stato-extracted.owl
 rmdir ${tmpdir}
