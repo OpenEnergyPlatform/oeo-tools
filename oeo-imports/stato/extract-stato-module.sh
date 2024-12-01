@@ -10,6 +10,8 @@ imports="${ontology_source}/imports"
 curl -L https://raw.githubusercontent.com/ISA-tools/stato/refs/heads/dev/releases/1.5/stato.owl > ${tmpdir}/stato-full-download.owl
 # Classification:  tbd in oeo-import-edits
 robot merge --input ${tmpdir}/stato-full-download.owl extract --method MIREOT --lower-terms ${this_wd}/stato-w-hierarchy.txt --upper-term http://purl.obolibrary.org/obo/STATO_0000633 --upper-term http://purl.obolibrary.org/obo/STATO_0000039 --intermediates all --output ${tmpdir}/stato-extracted-w-hierarchy.owl
+# Remove definition of known annotation properties from the import
+robot remove --input ${tmpdir}/stato-extracted-w-hierarchy.owl --select annotation-properties --exclude-term http://purl.obolibrary.org/obo/STATO_0000032 --trim false --output ${tmpdir}/stato-extracted-w-hierarchy.owl
 # Create Extracted module and annotate with new ontology information
 robot annotate --input ${tmpdir}/stato-extracted-w-hierarchy.owl --ontology-iri http://openenergy-platform.org/ontology/oeo/imports/stato-extracted.owl --version-iri http://openenergy-platform.org/ontology/oeo/dev/imports/stato-extracted.owl --output ${tmpdir}/stato-extracted.owl
 # Annotates the output module with a commentary to the origin of the content
