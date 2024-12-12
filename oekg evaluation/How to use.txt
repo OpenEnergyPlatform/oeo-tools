@@ -1,21 +1,14 @@
-There are 3 scripts. 
+There are 2 scripts. 
 
-This one is querying a file:
+This one is querying a file or the oekg SPARQL endpoint:
 
-python3 wordFinder.py [path to your rdf data file] [path to the file holding labels].
+python3 labelChecker.py <endpoint|file> > <path to the file holding labels> [path to your rdf data file].
+
+If you want to query the endpoint, use "endpoint" as the first artgument. Use "file" if you want to query a file. In that case you need to specify the path to the file in the third argument.
 
 The output will be printed into a file called abstract_evaluation.txt.
 You may need to instal rdflib first.
 
-///
-
-This one is querying the OEKG endpoint:
-
-python3 endpointWordFinder.py [path to the file holding labels]
-
-The output will be printed into a file called abstract_evaluation2.txt.
-
-///
 
 The file with all current OEO labels taken from the glossary and current alternative labels extracted from the omn files is provided in this folder and is called allLabels.txt.
 
@@ -24,9 +17,11 @@ The file with all current OEO labels taken from the glossary and current alterna
 This one is for querying...
 1) the number of studys in the sample
 2) the number of scenarios per study
-3) the descriptors of each study
+3) the keywords of each study
 
-python3 oekgQuery.py [studynumber|scenarionumber|descriptors]
+python3 oekgQuery.py <endpoint|file> <studynumber|scenarionumber|keywords> [path to your rdf data file]
+
+If you want to query the endpoint, use "endpoint" as the first artgument. Use "file" if you want to query a file. In that case you need to specify the path to the file in the third argument.
 
 Chosing "studynumber" will print the number in the terminal.
-Chosing "scenarionumber" or "descriptors" will output a file named "scenariosPerStudy.txt" or "studyDescriptors.txt" respectively.
+Chosing "scenarionumber" or "descriptors" will output a file named "scenariosPerStudy.txt" or "studyDescriptors.txt" respectively. It will also print a dictionary of the resultst to the terminal.
