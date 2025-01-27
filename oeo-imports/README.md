@@ -60,7 +60,14 @@
         - Select 'Import ontology contained in a local file' 
         - Enter the path to your file within the imports folder (manually or using the 'Browse' function)
     
-    f. Integrate terms within the OEO
+    f. check the catalog-v0001.xml files in the directories ontology and edits
+
+        They should now contain a line: 
+        `<uri id="Imports Wizard Entry" name="http://openenergy-platform.org/ontology/oeo/dev/imports/[ontology abbreviation]-extracted.owl" uri="../imports/[ontology abbreviation]-extracted.owl"/>`
+
+        if they do not, add it to both files
+        
+    g. Integrate terms within the OEO
         -> add all neccessary axioms/parent classes in the oeo-shared-axioms.omn file
     
-    g. Merge after successful review
+    h. Merge after successful review
