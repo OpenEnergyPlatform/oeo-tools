@@ -15,7 +15,7 @@
 
     a. Create or update two lists of terms
 
-        -> terms that should be integrated into the OEO on their own  (ontology-n-hierarchy.txt)
+        -> terms that should be integrated into the OEO on their own, i.e. without importing the hierarchy  (ontology-n-hierarchy.txt)
         -> terms that should be imported with their parent classes    (ontology-w-hierarchy.txt)
 
     b. Create a shell script (extract-[ontology abbreviation]-module.sh)
