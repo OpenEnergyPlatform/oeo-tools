@@ -8,7 +8,7 @@
 
 ### Workflow
 
-1. Follow the workflow described in the 'ontology' repository
+1. Follow the [workflow](https://github.com/OpenEnergyPlatform/ontology/wiki/pull-request-workflow) described in the 'ontology' repository
     (Create an issue, create a feature branch, create a PR, ...)
 
 2. Take the following steps while working on your feature branch
