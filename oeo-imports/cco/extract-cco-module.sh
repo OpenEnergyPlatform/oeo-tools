@@ -10,7 +10,7 @@ curl -L https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologie
 # Extract the terms we want with their hierarchy of subclasses
 robot merge --input ${tmpdir}/cco-full-download.ttl extract --method MIREOT --branch-from-terms ${this_wd}/cco-w-hierarchy.txt --intermediates all --output ${tmpdir}/cco-extracted-w-hierarchy.owl
 # Extract the terms we want without their hierarchy of subclasses or subproperties
-robot merge --input ${tmpdir}/cco-full-download.owl extract --method MIREOT --lower-terms ${this_wd}/cco-n-hierarchy.txt --intermediates none --output ${tmpdir}/cco-extracted-n-hierarchy.owl
+robot merge --input ${tmpdir}/cco-full-download.ttl extract --method MIREOT --lower-terms ${this_wd}/cco-n-hierarchy.txt --intermediates none --output ${tmpdir}/cco-extracted-n-hierarchy.owl
 # Create Extracted module and annotate with new ontology information
 robot merge --input ${tmpdir}/cco-extracted-w-hierarchy.owl --input ${tmpdir}/cco-extracted-n-hierarchy.owl annotate --ontology-iri http://openenergy-platform.org/ontology/oeo/imports/cco-extracted.owl --version-iri http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl --output ${tmpdir}/cco-extracted.owl
 # Annotates the output module with a commentary to the origin of the content
@@ -18,7 +18,7 @@ robot annotate --input ${tmpdir}/cco-extracted.owl --annotation rdfs:comment "Th
 # Annotates each axiom with the ontology IRI, using prov:wasDerivedFrom
 robot annotate --input ${tmpdir}/cco-extracted.owl --annotate-derived-from true --annotate-defined-by true --output ${imports}/cco-extracted.owl
 
-rm ${tmpdir}/cco-full-download.owl
+rm ${tmpdir}/cco-full-download.ttl
 rm ${tmpdir}/cco-extracted-w-hierarchy.owl
 rm ${tmpdir}/cco-extracted-n-hierarchy.owl
 rm ${tmpdir}/cco-extracted.owl
