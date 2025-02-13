@@ -7,9 +7,9 @@ imports="${ontology_source}/imports"
 
 # Download the CCO version of the commit behind release from 2024-11-06
 curl -L https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/510dad76be0ef710b65a421075af912af25342b7/src/cco-merged/CommonCoreOntologiesMerged.ttl > ${tmpdir}/cco-full-download.ttl
-# Extract the terms we want with hierarchy 
+# Extract the terms we want with their hierarchy of subclasses
 robot merge --input ${tmpdir}/cco-full-download.ttl extract --method MIREOT --branch-from-terms ${this_wd}/cco-w-hierarchy.txt --intermediates all --output ${tmpdir}/cco-extracted-w-hierarchy.owl
-# Extract the terms we want without hierarchy
+# Extract the terms we want without their hierarchy of subclasses or subproperties
 robot merge --input ${tmpdir}/cco-full-download.owl extract --method MIREOT --lower-terms ${this_wd}/cco-n-hierarchy.txt --intermediates none --output ${tmpdir}/cco-extracted-n-hierarchy.owl
 # Create Extracted module and annotate with new ontology information
 robot merge --input ${tmpdir}/cco-extracted-w-hierarchy.owl --input ${tmpdir}/cco-extracted-n-hierarchy.owl annotate --ontology-iri http://openenergy-platform.org/ontology/oeo/imports/cco-extracted.owl --version-iri http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl --output ${tmpdir}/cco-extracted.owl
@@ -17,7 +17,7 @@ robot merge --input ${tmpdir}/cco-extracted-w-hierarchy.owl --input ${tmpdir}/cc
 robot annotate --input ${tmpdir}/cco-extracted.owl --annotation rdfs:comment "This file contains externally imported content from the Common Core Ontologies (CCO) for import into the Open Energy Ontology (OEO). It is automatically extracted using ROBOT from the list of selected terms (cco-extract-w-hierarchy.txt, cco-extract-n-hierarchy.txt) located in the OEO-tools repository." --output ${tmpdir}/cco-extracted.owl
 # Annotates each axiom with the ontology IRI, using prov:wasDerivedFrom
 robot annotate --input ${tmpdir}/cco-extracted.owl --annotate-derived-from true --annotate-defined-by true --output ${imports}/cco-extracted.owl
-## Annotate with new ontology information
+
 rm ${tmpdir}/cco-full-download.owl
 rm ${tmpdir}/cco-extracted-w-hierarchy.owl
 rm ${tmpdir}/cco-extracted-n-hierarchy.owl
