@@ -1,0 +1,7 @@
+https://www.commoncoreontologies.org/ont00000004 # 'Change' + subclasses
+http://purl.obolibrary.org/obo/BFO_0000132       # 'occurrent part of' + subproperties
+http://purl.obolibrary.org/obo/BFO_0000117       # 'has occurrent part' + subproperties
+https://www.commoncoreontologies.org/ont00001819 # 'caused by'
+https://www.commoncoreontologies.org/ont00001803 # 'is cause of'
+https://www.commoncoreontologies.org/ont00000660 # 'Effect' + subclasses
+https://www.commoncoreontologies.org/ont00000819 # 'Stasis' + subclasses
