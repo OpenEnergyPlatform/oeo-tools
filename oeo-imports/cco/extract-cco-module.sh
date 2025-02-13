@@ -6,7 +6,7 @@ ontology_source=src/ontology
 imports="${ontology_source}/imports"
 
 # Download the CCO version of the commit behind release from 2024-11-06
-curl -L https://github.com/CommonCoreOntology/CommonCoreOntologies/blob/510dad76be0ef710b65a421075af912af25342b7/src/cco-merged/CommonCoreOntologiesMerged.ttl > ${tmpdir}/cco-full-download.ttl
+curl -L https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/510dad76be0ef710b65a421075af912af25342b7/src/cco-merged/CommonCoreOntologiesMerged.ttl > ${tmpdir}/cco-full-download.ttl
 # Extract the terms we want with hierarchy 
 robot merge --input ${tmpdir}/cco-full-download.ttl extract --method MIREOT --branch-from-terms ${this_wd}/cco-w-hierarchy.txt --intermediates all --output ${tmpdir}/cco-extracted-w-hierarchy.owl
 # Extract the terms we want without hierarchy
