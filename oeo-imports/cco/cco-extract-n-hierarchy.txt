@@ -1,0 +1,2 @@
+https://www.commoncoreontologies.org/ont00001819 # 'caused by'
+https://www.commoncoreontologies.org/ont00001803 # 'is cause of'
