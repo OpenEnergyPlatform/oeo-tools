@@ -288,6 +288,48 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000121 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000121">
+        <dc:identifier>211-BFO</dc:identifier>
+        <rdfs:isDefinedBy rdf:resource="http://openenergy-platform.org/ontology/oeo/imports/cco-extracted.owl"/>
+        <rdfs:label xml:lang="en">has temporal part</rdfs:label>
+        <skos:definition xml:lang="en">b has temporal part c =Def c temporal part of b</skos:definition>
+        <skos:example xml:lang="en">Your life has temporal part the first year of your life</skos:example>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000121"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000121"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+        <owl:annotatedTarget>211-BFO</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000121"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">has temporal part</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000121"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+        <owl:annotatedTarget xml:lang="en">b has temporal part c =Def c temporal part of b</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000121"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#example"/>
+        <owl:annotatedTarget xml:lang="en">Your life has temporal part the first year of your life</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000132 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000132">
@@ -325,6 +367,83 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000132"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#example"/>
         <owl:annotatedTarget xml:lang="en">Mary&apos;s 5th birthday is an occurrent part of Mary&apos;s life; the first set of the tennis match is an occurrent part of the tennis match</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000139 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000139">
+        <dc:identifier>078-BFO</dc:identifier>
+        <rdfs:isDefinedBy rdf:resource="http://openenergy-platform.org/ontology/oeo/imports/cco-extracted.owl"/>
+        <rdfs:label xml:lang="en">temporal part of</rdfs:label>
+        <skos:definition xml:lang="en">b temporal part of c =Def b occurrent part of c &amp; (b and c are temporal regions) or (b and c are spatiotemporal regions &amp; b temporally projects onto an occurrent part of the temporal region that c temporally projects onto) or (b and c are processes or process boundaries &amp; b occupies a temporal region that is an occurrent part of the temporal region that c occupies)</skos:definition>
+        <skos:example xml:lang="en">Your heart beating from 4pm to 5pm today is a temporal part of the process of your heart beating; the 4th year of your life is a temporal part of your life, as is the process boundary which separates the 3rd and 4th years of your life; the first quarter of a game of football is a temporal part of the whole game</skos:example>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000139"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000139"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+        <owl:annotatedTarget>078-BFO</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000139"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">temporal part of</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000139"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+        <owl:annotatedTarget xml:lang="en">b temporal part of c =Def b occurrent part of c &amp; (b and c are temporal regions) or (b and c are spatiotemporal regions &amp; b temporally projects onto an occurrent part of the temporal region that c temporally projects onto) or (b and c are processes or process boundaries &amp; b occupies a temporal region that is an occurrent part of the temporal region that c occupies)</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000139"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#example"/>
+        <owl:annotatedTarget xml:lang="en">Your heart beating from 4pm to 5pm today is a temporal part of the process of your heart beating; the 4th year of your life is a temporal part of your life, as is the process boundary which separates the 3rd and 4th years of your life; the first quarter of a game of football is a temporal part of the whole game</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001777 -->
+
+    <owl:ObjectProperty rdf:about="https://www.commoncoreontologies.org/ont00001777">
+        <rdfs:isDefinedBy rdf:resource="http://openenergy-platform.org/ontology/oeo/imports/cco-extracted.owl"/>
+        <rdfs:label xml:lang="en">has process part</rdfs:label>
+        <skos:definition xml:lang="en">x has_process_part y iff x and y are instances of Process, such that y occurs during the temporal interval of x, and y either provides an input to x or receives an output of x, or both.</skos:definition>
+        <www:ont00001760 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.commoncoreontologies.org/ExtendedRelationOntology</www:ont00001760>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00001777"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00001777"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">has process part</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00001777"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+        <owl:annotatedTarget xml:lang="en">x has_process_part y iff x and y are instances of Process, such that y occurs during the temporal interval of x, and y either provides an input to x or receives an output of x, or both.</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00001777"/>
+        <owl:annotatedProperty rdf:resource="https://www.commoncoreontologies.org/ont00001760"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.commoncoreontologies.org/ExtendedRelationOntology</owl:annotatedTarget>
         <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
     </owl:Axiom>
     
@@ -393,6 +512,41 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00001819"/>
+        <owl:annotatedProperty rdf:resource="https://www.commoncoreontologies.org/ont00001760"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.commoncoreontologies.org/ExtendedRelationOntology</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001857 -->
+
+    <owl:ObjectProperty rdf:about="https://www.commoncoreontologies.org/ont00001857">
+        <rdfs:isDefinedBy rdf:resource="http://openenergy-platform.org/ontology/oeo/imports/cco-extracted.owl"/>
+        <rdfs:label xml:lang="en">is part of process</rdfs:label>
+        <skos:definition xml:lang="en">x is_part_of_process y iff x and y are instances of Process, such that x occurs during the temporal interval of y, and x either provides an input to y or receives an output of y.</skos:definition>
+        <www:ont00001760 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.commoncoreontologies.org/ExtendedRelationOntology</www:ont00001760>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00001857"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00001857"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">is part of process</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00001857"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+        <owl:annotatedTarget xml:lang="en">x is_part_of_process y iff x and y are instances of Process, such that x occurs during the temporal interval of y, and x either provides an input to y or receives an output of y.</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00001857"/>
         <owl:annotatedProperty rdf:resource="https://www.commoncoreontologies.org/ont00001760"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.commoncoreontologies.org/ExtendedRelationOntology</owl:annotatedTarget>
         <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
@@ -751,6 +905,12 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00000115"/>
+        <owl:annotatedProperty rdf:resource="https://www.commoncoreontologies.org/ont00001760"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.commoncoreontologies.org/EventOntology</owl:annotatedTarget>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00000115"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
         <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
         <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
@@ -771,12 +931,6 @@
         <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00000115"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
         <owl:annotatedTarget xml:lang="en">A Stasis of Realizable Entity in which some Independent Continuant bears some Disposition that remains unchanged during a Temporal Interval.</owl:annotatedTarget>
-        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00000115"/>
-        <owl:annotatedProperty rdf:resource="https://www.commoncoreontologies.org/ont00001760"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.commoncoreontologies.org/EventOntology</owl:annotatedTarget>
         <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
     </owl:Axiom>
     
@@ -919,6 +1073,18 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00000250"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00000250"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="https://www.commoncoreontologies.org/ont00000865"/>
+        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00000250"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget xml:lang="en">Loss of Realizable Entity</owl:annotatedTarget>
         <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
@@ -933,18 +1099,6 @@
         <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00000250"/>
         <owl:annotatedProperty rdf:resource="https://www.commoncoreontologies.org/ont00001760"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.commoncoreontologies.org/EventOntology</owl:annotatedTarget>
-        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00000250"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-        <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://www.commoncoreontologies.org/ont00000250"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="https://www.commoncoreontologies.org/ont00000865"/>
         <prov:wasDerivedFrom rdf:resource="http://openenergy-platform.org/ontology/oeo/dev/imports/cco-extracted.owl"/>
     </owl:Axiom>
     
