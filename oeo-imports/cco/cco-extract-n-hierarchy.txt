@@ -1,3 +1,8 @@
 https://www.commoncoreontologies.org/ont00001819 # 'caused by'
 https://www.commoncoreontologies.org/ont00001803 # 'is cause of'
-http://purl.obolibrary.org/obo/BFO_0000139 # 'temporal part of'
+http://purl.obolibrary.org/obo/BFO_0000132       # 'occurrent part of'
+https://www.commoncoreontologies.org/ont00001857 # 'is part of process' (subproperty of 'occurrent part of')
+http://purl.obolibrary.org/obo/BFO_0000139       # 'temporal part of' (subproperty of 'occurrent part of')
+http://purl.obolibrary.org/obo/BFO_0000117       # 'has occurrent part'
+http://purl.obolibrary.org/obo/BFO_0000121       # 'has temporal part' (subproperty of 'has occurrent part')
+https://www.commoncoreontologies.org/ont00001777 # 'has process part' (subproperty of 'has occurrent part')
