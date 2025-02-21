@@ -1,0 +1,5 @@
+# Although robot should be capable of it, it doesn't seem like importing properties alongside all their subproperties does currently work.
+# That's why all property imports are done in "cco-extract-n-hierarchy.txt"
+https://www.commoncoreontologies.org/ont00000004 # 'Change' + subclasses
+https://www.commoncoreontologies.org/ont00000660 # 'Effect' + subclasses
+https://www.commoncoreontologies.org/ont00000819 # 'Stasis' + subclasses
