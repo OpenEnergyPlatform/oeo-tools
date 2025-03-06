@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/stap-m/midlevel-energy-ontology/main/ontology/src/midlevel-energy.owl/MENO_01038 # 'quality transfer' + subclasses
