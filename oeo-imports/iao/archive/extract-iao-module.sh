@@ -16,7 +16,7 @@ robot annotate --input ../../ontology/imports/iao-extracted.owl --annotation rdf
 # Annotates each axiom with the ontology IRI, using prov:wasDerivedFrom
 robot annotate --input ../../ontology/imports/iao-extracted.owl --annotate-derived-from true --annotate-defined-by true --output ../../ontology/imports/iao-extracted.owl
 # Annotate with new ontology information
-robot annotate --input ../../ontology/imports/iao-extracted.owl  --ontology-iri http://openenergy-platform.org/ontology/oeo/imports/iao-extracted.owl --version-iri http://openenergy-platform.org/ontology/oeo/dev/imports/iao-extracted.owl --output ../../ontology/imports/iao-extracted.owl
+robot annotate --input ../../ontology/imports/iao-extracted.owl  --ontology-iri https://openenergyplatform.org/ontology/oeo/imports/iao-extracted.owl --version-iri https://openenergyplatform.org/ontology/oeo/dev/imports/iao-extracted.owl --output ../../ontology/imports/iao-extracted.owl
 rm iao-full-download.owl
 rm iao-extracted-domain.owl
 rm iao-module-temp.owl

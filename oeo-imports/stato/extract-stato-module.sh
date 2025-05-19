@@ -13,7 +13,7 @@ robot merge --input ${tmpdir}/stato-full-download.owl extract --method MIREOT --
 # Remove definition of known annotation properties from the import
 robot remove --input ${tmpdir}/stato-extracted-w-hierarchy.owl --select annotation-properties --exclude-term http://purl.obolibrary.org/obo/STATO_0000032 --trim false --output ${tmpdir}/stato-extracted-w-hierarchy.owl
 # Create Extracted module and annotate with new ontology information
-robot annotate --input ${tmpdir}/stato-extracted-w-hierarchy.owl --ontology-iri http://openenergy-platform.org/ontology/oeo/imports/stato-extracted.owl --version-iri http://openenergy-platform.org/ontology/oeo/dev/imports/stato-extracted.owl --output ${tmpdir}/stato-extracted.owl
+robot annotate --input ${tmpdir}/stato-extracted-w-hierarchy.owl --ontology-iri https://openenergyplatform.org/ontology/oeo/imports/stato-extracted.owl --version-iri https://openenergyplatform.org/ontology/oeo/dev/imports/stato-extracted.owl --output ${tmpdir}/stato-extracted.owl
 # Annotates the output module with a commentary to the origin of the content
 robot annotate --input ${tmpdir}/stato-extracted.owl --annotation rdfs:comment "This file contains externally imported content from the Statistics Ontology (STATO) for import into the Open Energy Ontology (OEO). It is automatically extracted using ROBOT from the list of selected terms (stato-w-hierarchy.txt) located in the OEO-tools repository." --output ${tmpdir}/stato-extracted.owl
 # Annotates each axiom with the ontology IRI, using prov:wasDerivedFrom

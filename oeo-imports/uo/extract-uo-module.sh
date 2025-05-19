@@ -22,7 +22,7 @@ robot annotate --input  ${tmpdir}/uo-extracted.owl --annotate-derived-from true 
 ## add 'definition' label to IAO_0000115
 sed -i "33s/.*/        <rdfs:label>definition<\/rdfs:label>/"  ${tmpdir}/uo-extracted.owl
 # Annotate with new ontology information
-robot annotate --input  ${tmpdir}/uo-extracted.owl  --ontology-iri http://openenergy-platform.org/ontology/oeo/imports/uo-extracted.owl --version-iri http://openenergy-platform.org/ontology/oeo/dev/imports/uo-extracted.owl --output  ${imports}/uo-extracted.owl
+robot annotate --input  ${tmpdir}/uo-extracted.owl  --ontology-iri https://openenergyplatform.org/ontology/oeo/imports/uo-extracted.owl --version-iri https://openenergyplatform.org/ontology/oeo/dev/imports/uo-extracted.owl --output  ${imports}/uo-extracted.owl
 
 rm ${tmpdir}/uo-full-download.owl
 rm ${tmpdir}/uo-module-temp.owl

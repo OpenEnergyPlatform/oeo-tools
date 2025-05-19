@@ -14,7 +14,7 @@ robot annotate --input uo-extracted.owl --annotation rdfs:comment "This file con
 # Annotates each axiom with the ontology IRI, using prov:wasDerivedFrom
 robot annotate --input uo-extracted.owl --annotate-derived-from true --annotate-defined-by true --output uo-extracted.owl
 # Annotate with new ontology information
-robot annotate --input uo-extracted.owl  --ontology-iri http://openenergy-platform.org/ontology/oeo/imports/uo-extracted.owl --version-iri http://openenergy-platform.org/ontology/oeo/dev/imports/uo-extracted.owl --output uo-extracted.owl
+robot annotate --input uo-extracted.owl  --ontology-iri https://openenergyplatform.org/ontology/oeo/imports/uo-extracted.owl --version-iri https://openenergyplatform.org/ontology/oeo/dev/imports/uo-extracted.owl --output uo-extracted.owl
 
 rm uo-full-download.owl
 rm uo-temp-extracted.owl
