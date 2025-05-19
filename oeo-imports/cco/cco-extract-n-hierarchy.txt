@@ -6,3 +6,11 @@ http://purl.obolibrary.org/obo/BFO_0000139       # 'temporal part of' (subproper
 http://purl.obolibrary.org/obo/BFO_0000117       # 'has occurrent part'
 http://purl.obolibrary.org/obo/BFO_0000121       # 'has temporal part' (subproperty of 'has occurrent part')
 https://www.commoncoreontologies.org/ont00001777 # 'has process part' (subproperty of 'has occurrent part')
+https://www.commoncoreontologies.org/ont00001942 # 'prescribes'
+https://www.commoncoreontologies.org/ont00001920 # 'prescribed by'
+https://www.commoncoreontologies.org/ont00001916 # 'designates'
+https://www.commoncoreontologies.org/ont00001879 # 'designated by'
+https://www.commoncoreontologies.org/ont00001982 # 'describes'
+https://www.commoncoreontologies.org/ont00001917 # 'described by'
+https://www.commoncoreontologies.org/ont00001938 # 'represents'
+https://www.commoncoreontologies.org/ont00001873 # 'represented by'
