@@ -32,11 +32,10 @@
     c. Run shell script (use WSL on Windows)
 
         enter 
-        ```bash ./extract-[ontology abbreviation]-module.sh```        
-        in the directory that contains your .sh file
-        after setting up ROBOT according to their description    
+        `bash ./oeo-tools/oeo-imports/[ontology abbreviation]/extract-[ontology abbreviation]-module.sh`        
+        in the parent directory of the `oeo-tools` folder after setting up ROBOT according to their description
 
-        this should provide you with a new [ontology abbreviation]-extracted.owl
+        this should provide you with a new `[ontology abbreviation]-extracted.owl`
     
     d. Create a new subfolder of oeo-imports called [ontology abbreviation]
 
