@@ -245,7 +245,7 @@ def main():
 #* Script start here
 #* Load 'static' values
 
-ontology_iri = 'http://openenergy-platform.org/ontology/oeo'
+ontology_iri = 'https://openenergyplatform.org/ontology/oeo'
 
 changed = True
 running = True
