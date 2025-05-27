@@ -32,11 +32,10 @@
     c. Run shell script (use WSL on Windows)
 
         enter 
-        ```bash ./extract-[ontology abbreviation]-module.sh```        
-        in the directory that contains your .sh file
-        after setting up ROBOT according to their description    
+        `bash ./oeo-tools/oeo-imports/[ontology abbreviation]/extract-[ontology abbreviation]-module.sh`        
+        in the parent directory of the `oeo-tools` folder after setting up ROBOT according to their description
 
-        this should provide you with a new [ontology abbreviation]-extracted.owl
+        this should provide you with a new `[ontology abbreviation]-extracted.owl`
     
     d. Create a new subfolder of oeo-imports called [ontology abbreviation]
 
@@ -52,7 +51,7 @@
 
     c. Add your new extracted.owl file to the 'imports' folder
 
-    d. Open oeo-shared.omn in Protege
+    d. Open `oeo-shared.omn` in Protégé
 
     e. While on the 'Active ontology' tab:
         - Find the 'Ontology imports' tab
@@ -63,11 +62,17 @@
     f. check the catalog-v0001.xml files in the directories ontology and edits
 
         They should now contain a line: 
-        `<uri id="Imports Wizard Entry" name="http://openenergy-platform.org/ontology/oeo/dev/imports/[ontology abbreviation]-extracted.owl" uri="../imports/[ontology abbreviation]-extracted.owl"/>`
+        `<uri id="Imports Wizard Entry" name="https://openenergyplatform.org/ontology/oeo/dev/imports/[ontology abbreviation]-extracted.owl" uri="../imports/[ontology abbreviation]-extracted.owl"/>`
 
         if they do not, add it to both files
         
-    g. Integrate terms within the OEO
-        -> add all neccessary axioms/parent classes in the oeo-shared-axioms.omn file
-    
+    g. Add all neccessary axioms/parent classes in the `oeo-import-edits.owl` file
+        - if you want to easily do that in Protégé:
+            - since `oeo-import-edits.owl` doesn't import the new `extracted.owl`, you can't easily add e.g. subclass axioms when directly opening it in Protégé
+            - instead, open `oeo-shared.omn` in Protégé, which already imports `oeo-import-edits.owl` and should (since step e.) also import the new `extracted.owl`
+            - add the axioms in `oeo-shared.omn`
+                - left-click on the new axiom in the right `Description: label` panel, so it is highlighted and then right-click
+                - in the menu that opens, select the option `Move axiom(s) to ontology...` and select `oeo-import-edits` in the new window
+            - after doing this for all axioms, save and make sure to only commit the `oeo-import-edits.owl` file to the repository
+
     h. Merge after successful review
