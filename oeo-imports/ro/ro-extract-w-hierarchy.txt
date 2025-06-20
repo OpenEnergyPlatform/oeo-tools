@@ -41,3 +41,6 @@ http://purl.obolibrary.org/obo/RO_0002091 # starts during
 http://purl.obolibrary.org/obo/RO_0002418 # causally upstream of or within
 http://purl.obolibrary.org/obo/RO_0002427 # causally downstream of or within
 http://purl.obolibrary.org/obo/RO_0002577 # system
+
+http://purl.obolibrary.org/obo/RO_0019001 # positively regulates characteristic
+http://purl.obolibrary.org/obo/RO_0019002 # negatively regulates characteristic
