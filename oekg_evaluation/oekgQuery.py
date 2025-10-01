@@ -43,15 +43,15 @@ def main():
         arg = str(sys.argv[2])
 
         if arg == "scenarionumber":
-            pred = "<http://openenergy-platform.org/ontology/oekg/has_scenario>"
+            pred = "<https://openenergyplatform.org/ontology/oekg/has_scenario>"
             start2 = 'obj": {"type": "uri", "value": "'
 
         elif arg == "keywords":
-            pred = "<http://openenergy-platform.org/ontology/oeo/has_study_keyword>"
+            pred = "<https://openenergyplatform.org/ontology/oeo/has_study_keyword>"
             start2 = 'obj": {"type": "literal", "value": "'
 
         elif arg == "studynumber":
-            pred = "<http://openenergy-platform.org/ontology/oekg/has_full_name>"
+            pred = "<https://openenergyplatform.org/ontology/oekg/has_full_name>"
 
         else:
             print("Error: Invalid query! Use 'scenarionumber', 'keywords' or 'studynumber'!")
