@@ -8,8 +8,9 @@ imports="${ontology_source}/imports"
 # Download UO release from 202
 #curl -L https://data.bioontology.org/ontologies/UO/submissions/219/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb > ${tmpdir}/uo-full-download.owl
 curl -L http://purl.obolibrary.org/obo/uo.owl > ${tmpdir}/uo-full-download.owl
-# Extract the terms we want with downward hierarchy
-robot merge --input ${tmpdir}/uo-full-download.owl extract --method MIREOT --lower-terms ${this_wd}/uo-w-hierarchy.txt --intermediates all --output ${tmpdir}/uo-module-temp.owl
+# Extract the terms we want with downward hierarchy excluding the root term UO:0000000 as we use OEO:00010490 (see OpenEnergyPlatform/ontology/pull/2141)
+robot merge --input ${tmpdir}/uo-full-download.owl extract --method MIREOT --lower-terms ${this_wd}/uo-w-hierarchy.txt --intermediates all \
+    remove --term UO:0000000 --preserve-structure false --output ${tmpdir}/uo-module-temp.owl
 ## add prefix for OBO xmlns:obo="http://purl.obolibrary.org/obo/"
 sed -i 's/xmlns:owl/xmlns:obo="http:\/\/purl.obolibrary.org\/obo\/"\n\t \xmlns:owl/' tmp/uo-module-temp.owl
 # Replace "<rdfs:comment>" with "obo:IAO_0000115" and Replace "<rdfs:comment>" with "</obo:IAO_0000115>"
