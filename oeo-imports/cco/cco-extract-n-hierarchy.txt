@@ -17,3 +17,5 @@ https://www.commoncoreontologies.org/ont00001873 # 'represented by'
 https://www.commoncoreontologies.org/ont00000127 # 'Performance Specification'
 https://www.commoncoreontologies.org/ont00001141 # 'Infrastructure Role'
 https://www.commoncoreontologies.org/ont00000870 # 'Infrastructure System'
+https://www.commoncoreontologies.org/ont00000995 # 'Material Artifact'
+
