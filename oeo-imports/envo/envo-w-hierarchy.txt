@@ -1,0 +1,3 @@
+http://purl.obolibrary.org/obo/ENVO_02500000 # environmental system process 
+http://purl.obolibrary.org/obo/ENVO_01000629 # climate change 
+http://purl.obolibrary.org/obo/ENVO_02500004 # greenhouse effect
