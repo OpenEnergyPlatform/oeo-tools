@@ -6,3 +6,6 @@ http://purl.obolibrary.org/obo/RO_0002223 # starts
 http://purl.obolibrary.org/obo/RO_0002224 # starts with
 
 http://purl.obolibrary.org/obo/BFO_0000054 # realized in
+
+http://purl.obolibrary.org/obo/BFO_0000066 # occurs in
+
